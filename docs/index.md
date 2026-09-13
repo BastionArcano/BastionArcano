@@ -3,12 +3,7 @@ layout: default
 title: Bastión Arcano
 ---
 
-# ⚜ Bastión Arcano ⚜
-*Reinos, magia y acero*
-
-![Logo Bastión Arcano](/docs/assets/img/logo.png)
-
----
+![Logo Bastión Arcano](/assets/img/logo.png)
 
 ## 🏰 Bienvenidos al Reino
 El **Bastión Arcano** es un servidor de Minecraft donde la fantasía medieval cobra vida:  
@@ -35,7 +30,3 @@ Consulta las normas para mantener la paz y la magia en equilibrio.
 ## 🌌 Inicio
 Regresa al portal principal del reino:  
 🏰 [Inicio](/)
-
----
-
-© 2026 Bastión Arcano — Comunidad Minecraft
