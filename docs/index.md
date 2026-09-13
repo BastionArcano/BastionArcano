@@ -1,3 +1,8 @@
+---
+layout: default
+title: Bastión Arcano
+---
+
 # ⚜ Bastión Arcano ⚜
 *Reinos, magia y acero*
 
