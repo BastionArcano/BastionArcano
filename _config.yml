@@ -1,0 +1,53 @@
+# Información básica del sitio
+title: Bastión Arcano
+description: Servidor de fantasía medieval en Minecraft
+author: Comunidad Bastión Arcano
+
+# Raíz del sitio (si usas /docs como carpeta principal)
+source: docs
+
+# URL base del sitio en GitHub Pages
+url: "https://bastionarcano.github.io"
+baseurl: "/BastionArcano"   # ⚠️ IMPORTANTE: tu repo está en /BastionArcano
+
+# Tema base (puedes dejarlo vacío si usas tu propio layout)
+theme: minima
+
+# Configuración de Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# Plugins útiles para SEO y organización
+plugins:
+  - jekyll-feed        # RSS feed automático
+  - jekyll-sitemap     # Sitemap.xml para SEO
+  - jekyll-seo-tag     # Metadatos SEO automáticos
+  - jekyll-paginate    # Paginación de posts si usas blog
+  - jekyll-archives    # Archivos por categorías/etiquetas
+
+# Configuración de paginación (si usas posts)
+paginate: 5
+paginate_path: "/page:num/"
+
+# Defaults para assets
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
+  - scope:
+      path: "assets/css"
+    values:
+      css: true
+
+# Excluir archivos innecesarios del build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+# Incluir archivos especiales
+include:
+  - _pages
