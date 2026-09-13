@@ -1,7 +1,7 @@
 # ⚜ Bastión Arcano ⚜
 *Reinos, magia y acero*
 
-![Logo Bastión Arcano](/assets/img/logo.png)
+![Logo Bastión Arcano](/docs/assets/img/logo.png)
 
 ---
 
@@ -15,7 +15,7 @@ castillos, gremios, dragones y misiones mágicas esperan a cada aventurero.
 Únete a nuestra hermandad de jugadores, participa en eventos, conquista fortalezas  
 y escribe tu propia leyenda en el mundo arcano.
 
-👉 [Entrar al Discord](https://discord.gg/tuservidor)
+👉 [Entrar al Discord](https://discord.gg/pgz7ZS3nMy)
 
 ---
 
