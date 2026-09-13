@@ -7,4 +7,4 @@ Explora torres, gremios y aquelarres en el Bastión Arcano.
 
 ## 🔗 Enlaces
 - Discord: [Únete al Bastión](https://discord.gg/pg7ZS3nMy)
-- Página oficial: [bastionarcano.github.io]([https://bastionarcano.github.io](https://bastionarcano.github.io/BastionArcano/))
+- Página oficial: [bastionarcano.github.io](https://bastionarcano.github.io/BastionArcano/)
