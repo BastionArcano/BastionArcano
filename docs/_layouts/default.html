@@ -5,13 +5,11 @@
   <title>{{ page.title }} - {{ site.title }}</title>
   <meta name="description" content="{{ site.description }}">
   <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Merriweather&display=swap" rel="stylesheet">
-  <!-- Ruta correcta al CSS dentro de /docs/assets/css -->
   <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
 </head>
 <body>
   <header>
     <a href="{{ '/' | relative_url }}" style="text-decoration:none; color:inherit;">
-      <!-- Ruta correcta al logo dentro de /docs/assets/img -->
       <img src="{{ '/assets/img/logo.png' | relative_url }}" alt="Logo Bastión Arcano" class="logo">
       <h1>⚜ Bastión Arcano ⚜</h1>
       <p>Donde la magia y el acero se encuentran</p>
@@ -19,31 +17,7 @@
   </header>
 
   <main>
-    <section>
-      <h2>🏰 Bienvenidos al Reino</h2>
-      <p>
-        En el Bastión Arcano, las estrellas giran sobre torres encantadas y los héroes forjan su destino.  
-        Cada misión es una historia, cada batalla una leyenda.
-      </p>
-    </section>
-
-    <section>
-      <h2>⚔️ Gremios y Aventuras</h2>
-      <p>
-        Únete a los gremios del reino, conquista fortalezas y desafía dragones bajo cielos mágicos.  
-        La comunidad te espera para compartir gloria y hechicería.
-      </p>
-      <a href="https://discord.gg/pgz7ZS3nMy" class="btn">🔮 Entrar al Discord</a>
-    </section>
-
-    <section>
-      <h2>📜 Código de Honor</h2>
-      <p>
-        Todo caballero y maga debe seguir las reglas del Bastión.  
-        Respeta la hermandad y la magia que nos une.
-      </p>
-      <a href="{{ '/reglas.md' | relative_url }}" class="btn">🛡 Ver Reglas</a>
-    </section>
+    {{ content }}
   </main>
 
   <footer>
